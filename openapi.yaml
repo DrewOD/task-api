@@ -1,0 +1,15 @@
+openapi: 3.0.3
+info:
+  title: Task API
+  version: 1.0.0
+  description: API for managing tasks
+
+servers:
+  - url: http://localhost:3000
+    description: Local server
+
+paths:
+  $ref: './paths/tasks.yaml'
+
+components:
+  $ref: './components/schemas.yaml'
